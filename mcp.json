@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "simplyboost": {
+      "url": "https://get-api.simplyboost.io/api/v1/mcp"
+    }
+  }
+}

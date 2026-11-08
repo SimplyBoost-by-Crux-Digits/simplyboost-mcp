@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "simplyboost",
+  "description": "Ask your SimplyBoost AI agents, work conversations and leads, and manage their knowledge.",
+  "version": "1.0.0",
+  "author": { "name": "Crux Digits B.V. (SimplyBoost)", "url": "https://simplyboost.io" }
+}
