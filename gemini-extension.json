@@ -1,0 +1,11 @@
+{
+  "name": "simplyboost",
+  "version": "1.0.1",
+  "description": "Ask your SimplyBoost AI support agents, work conversations and leads, and manage their knowledge.",
+  "mcpServers": {
+    "simplyboost": {
+      "httpUrl": "https://get-api.simplyboost.io/api/v1/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

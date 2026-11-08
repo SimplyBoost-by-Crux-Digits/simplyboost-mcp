@@ -33,6 +33,12 @@ or add [`mcp.json`](./mcp.json) to `~/.cursor/mcp.json`.
 **VS Code**: [Install](vscode:mcp/install?%7B%22name%22%3A%22simplyboost%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//get-api.simplyboost.io/api/v1/mcp%22%7D),
 or *MCP: Add Server* → HTTP → the address above.
 
+**Gemini CLI**
+
+```bash
+gemini extensions install https://github.com/SimplyBoost-by-Crux-Digits/simplyboost-mcp
+```
+
 **With an API token instead of OAuth**: create one in SimplyBoost under Settings → API, choose its
 permissions and chatbots, and send it as a header, for example
 `claude mcp add --transport http simplyboost https://get-api.simplyboost.io/api/v1/mcp --header "Authorization: Bearer $SIMPLYBOOST_API_TOKEN"`.
@@ -77,5 +83,6 @@ them say so, and the server tells the assistant to treat them as data, never as 
 
 This repository holds the server's listing files: [`server.json`](./server.json) for the
 [MCP Registry](https://registry.modelcontextprotocol.io), and [`plugin.json`](./plugin.json) with
-[`mcp.json`](./mcp.json) as an [Agent Plugin](https://agent-plugins.org) for Cursor. The server
+[`mcp.json`](./mcp.json) as an [Agent Plugin](https://agent-plugins.org) for Cursor, and
+[`gemini-extension.json`](./gemini-extension.json) as a Gemini CLI extension. The server
 itself is part of the SimplyBoost platform.
