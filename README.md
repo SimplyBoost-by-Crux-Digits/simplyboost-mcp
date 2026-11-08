@@ -4,6 +4,8 @@ Connect Claude, Cursor, VS Code or your own agent to [SimplyBoost](https://simpl
 support and knowledge platform. Ask your AI agents questions, read and answer the conversations they
 handed to your team, follow up leads, and keep their knowledge current, all from your assistant.
 
+![SimplyBoost MCP server: your AI support agents inside your AI assistant](screenshots/1-hero.png)
+
 This is a hosted (remote) server. There is nothing to install or run:
 
 ```
@@ -57,6 +59,13 @@ past your account (`openWorldHint`: a reply delivered to a visitor, a website re
 assistant can ask before it acts. A connection signed in without asking for more can only read.
 Messages, lead details and knowledge text come from your visitors and websites; results that carry
 them say so, and the server tells the assistant to treat them as data, never as instructions.
+
+## Screenshots
+
+| | |
+|---|---|
+| ![Ask in plain language (illustrative example)](screenshots/2-conversation.png) | ![Every tool says what it touches](screenshots/3-tools.png) |
+| ![Connect Claude, Claude Code, Cursor or VS Code](screenshots/4-connect.png) | ![You decide what an assistant may do (illustration)](screenshots/5-safety.png) |
 
 ## Privacy and support
 
